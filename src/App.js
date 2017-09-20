@@ -50,8 +50,8 @@ class WeatherDisplay extends Component {
         <p>High: {weatherData.main.temp_max}°</p>
         <p>Low: {weatherData.main.temp_min}°</p>
         <p>Wind Speed: {weatherData.wind.speed} m/s</p>
-        <p>Pressure: {weatherData.main.humidity} %</p>
-        <p>Humidity: {weatherData.main.pressure} hpa</p>
+        <p>Humidity: {weatherData.main.humidity} %</p>
+        <p>Pressure: {weatherData.main.pressure} hpa</p>
       </div>
     );
   }
